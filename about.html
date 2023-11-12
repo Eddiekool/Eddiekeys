@@ -32,6 +32,29 @@
      nav a {text-decoration: none; color: #fff;}
      .cta-button {display: inline-block; background-color: transparent; color: blue; padding: 20px; text-decoration: none; border-radius: 5px;}
 	</style>
+	<script type="text/javascript">
+		document.addEventListener('DOMcontentLoaded,' function() {const contentSection=document.getElementByid('content'); 
+			function showContent(content) {
+				contentSection.innerHTML=cntent;
+			}
+			document.getElementByid('home').addEventListener('click',function(event) {event.preventDefault(); 
+				showContent(
+					<h2>Welcome to Our School</h2>
+					<p>Check Out Our events, Courses and more.</p> 
+					);
+					}); 
+			document.getElementByid('about').addEventListener('click',function(event) {event.preventDefault(); 
+				showContent(
+					<h2>about Us</h2>
+					<p>We strive to provide quality education for young minds.....</p> 
+					);
+					}); 
+			document.getElementByid('Contact').addEventListener('click',function(event) {event.preventDefault(); 
+				showContent(
+					<h2>Cntact Us</h2>
+					<p>Reach out to us via phone or email..</p> 
+					);
+					}); </script>
 </head>
 <body>
 	<img src="C:\users\gt\Deskstop\paerty\New folder\static/img.gif" alt="image Icon" style="width: 128px; height: 128px;">
